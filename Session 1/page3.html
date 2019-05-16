@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page Title</title>
+
+</head>
+
+<body>
+
+<form method="POST" action="page3.php" enctype="multipart/form-data">
+    <label for="Email">Votre E-Mail.</label>
+    <input type="text" name="mail">
+<hr>
+    <label for="message">Taper ici votre commentaire.</label>
+    <textarea type="text" name="msg"></textarea>
+<hr>
+	<label for="Checkbox"> Votre choix avec checkbox.</label><br>
+	<input type="checkbox" name="CASE" value="CASE 1">CASE 1<br>
+	<input type="checkbox" name="CASE" value="CASE 2">CASE 2<br>
+	<input type="checkbox" name="CASE" value="CASE 3">CASE 3<br>
+<hr>
+	<label for="Radio"> Votre choix avec radio.</label>
+	<input type="radio" name="bouton" value="bouton1" checked> Bouton 1
+	<input type="radio" name="bouton" value="bouton2"> Bouton 2
+	<input type="radio" name="bouton" value="bouton3"> Bouton 3
+<hr>
+	Un fichier: <input name="MyFile" id="MyFile" type="file">
+<hr>
+	<input type="submit" name="soumission" value="Envoyer">
+	<input type="submit" name="soumission" value="Recommencer">
+</form> 
+
+</body>
+
+</html> 
